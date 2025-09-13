@@ -1,0 +1,7 @@
+name: frontend-app-stack
+
+services:
+  frontend-app:
+    image: firasaydi/front-session13
+    ports:
+      - "3000:80"
